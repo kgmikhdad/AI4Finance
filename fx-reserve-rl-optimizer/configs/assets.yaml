@@ -1,0 +1,9 @@
+tickers:
+  SHY: Short-term US Treasury ETF
+  IEF: Intermediate US Treasury ETF
+  TLT: Long-term US Treasury ETF
+  GLD: Gold ETF
+  FXE: Euro currency ETF
+  FXY: Japanese yen ETF
+start_date: "2007-01-01"
+end_date: null
