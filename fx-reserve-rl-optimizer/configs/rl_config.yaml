@@ -1,0 +1,11 @@
+algorithm: PPO
+policy: MlpPolicy
+total_timesteps: 50000
+learning_rate: 0.0003
+gamma: 0.99
+seed: 42
+reward:
+  volatility_penalty: 0.25
+  drawdown_penalty: 0.75
+  turnover_penalty: 0.10
+  concentration_penalty: 0.05
