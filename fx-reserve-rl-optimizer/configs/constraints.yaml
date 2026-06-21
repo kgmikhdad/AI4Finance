@@ -1,0 +1,10 @@
+long_only: true
+max_weight:
+  SHY: 0.50
+  IEF: 0.40
+  TLT: 0.25
+  GLD: 0.20
+  FXE: 0.20
+  FXY: 0.20
+transaction_cost_bps: 2.0
+rebalance_frequency: M
