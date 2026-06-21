@@ -1,0 +1,13 @@
+[project]
+name = "fx-reserve-rl-optimizer"
+version = "0.1.0"
+description = "Stylised FX reserve portfolio optimisation with deep reinforcement learning"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+src = ["src", "app", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
